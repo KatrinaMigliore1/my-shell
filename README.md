@@ -19,6 +19,11 @@ gcc shell.c -o shell
 > exit
 ```
 
+## Project Structure
+- shell.c — main shell implementation
+- README.md — project overview and documentation
+- LICENSE.md — MIT license
+
 ## How It Works
 ### 1. Read Input
 The shell reads user input character‑by‑character using a dynamically expanding buffer.
@@ -37,6 +42,11 @@ The shell continues running until the user enters exit.
 
 ## The Why
 This project was designed as a hands‑on way to explore how shells work under the hood and to strengthen my understanding of operating system internals, memory management, and process control.
+
+## Future Enhancements
+- Add built-in commands (cd, help)
+- Support piping and redirection
+- Improve error handling
 
 ## License
 This project is licensed under the MIT License — see the LICENSE.md file for details.
